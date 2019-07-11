@@ -10,12 +10,12 @@ need a bag of keywords. To represent an item in binary form we use an mXn matrix
 If the keyword applies to the item that cell takes a 1, otherwise the cell is zero. The keyword matrix allows us to
 find similarities between a guest's consumption history and all the items on the list (or menu).
 
-I did not use real data. Instead I used simulations of: list of users (guests), keyword matrix, transactional data. The
-script is a main.py module and two additional modules, sims.py and rec.py, that hold the classes for simulated data
-and recommendations, respectively.
+I did not have access to real data, therefore I used simulations of: list of users (guests), keyword matrix, transactional 
+data. The script is a main.py module and two additional modules, sims.py and rec.py, that hold the classes for simulated 
+data and recommendations, respectively.
 
 I recently reworked the original project into classes, rather that just making calls to a whole bunch of functions. I
-found that the use of objects are a step in the right direction as I work to implement into a Tkinter GUI. Will have 
-that update soon.
+found that the use of objects are a step in the right direction as I work to implement a Tkinter GUI. Will have that
+update soon.
 
 Anyway, thanks for checking this out!
