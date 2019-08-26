@@ -12,10 +12,7 @@ allows us to find similarities between a guest's consumption history and all the
 
 I did not have access to real data, therefore I used simulations of: list of users (guests), keyword matrix, transactional 
 data. The script is a main.py module and two additional modules, sims.py and rec.py, that hold the classes for simulated 
-data and recommendations, respectively.
-
-I recently reworked the original project into classes, rather that just making calls to a whole bunch of functions. I
-found that the use of objects are a step in the right direction as I work to implement a Tkinter GUI. Will have that
-update soon.
+data and recommendations, respectively. I am currently working on compiling a database of King County based micro brews for
+future app development.
 
 Thanks for stopping by!
