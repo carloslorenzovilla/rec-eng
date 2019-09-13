@@ -123,13 +123,13 @@ class Recommend:
         
         recent = []
         topRecommendations = []
-        for ii, rankedGenre in enumerate(rankedRecommendedGenres):
-            for jj, genre in enumerate(self.dailyGenres):
+        for rankedGenre in rankedRecommendedGenres:
+            for idx, genre in enumerate(self.dailyGenres):
                 if rankedGenre == genre:
-                    if list(self.itemSerialNum).count(self.dailyMenu[jj]) > 0:
-                        recent.append(self.dailyMenu[jj])
+                    if list(self.itemSerialNum).count(self.dailyMenu[idx]) > 0:
+                        recent.append(self.dailyMenu[idx])
                         continue
                     else:
-                        topRecommendations.append(self.dailyMenu[jj])
+                        topRecommendations.append(self.dailyMenu[idx])
                                                
         return topRecommendations[0:self.topResults], recent
