@@ -201,7 +201,7 @@ class SimTransData:
         testTransData = np.zeros((numEntries, numTestCol))
         
         for day in range(self.numDays): #day loop, 31 days default
-            for gg, guest in enumerate(numGuests): #guest loop
+            for guest in numGuests: #guest loop
                 
                 dishSerialNum = randint(0,numDishes-1) #set random dish
                             
